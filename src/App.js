@@ -42,7 +42,7 @@ function App() {
       {/* <video className="video-background" poster="023.png" autoPlay loop >
         <source src="../public/video.mp4" type="video/mp4" />
       </video> */}
-      <video id="video" className="video-background" src={video} autoPlay loop muted playsInline controls />
+      <video id="video" className="video-background" src={video} autoPlay loop playsInline controls />
       <Confetti width={windowWidth} height={windowHeight} />
       {renderItems(numCakes, '/cake.png', 'cake')}
       {renderItems(numSkirts, '/skirt.png', 'skirt')}
